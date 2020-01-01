@@ -1,9 +1,9 @@
 body {
   color: rgb(0,0,0);
   font-family: 'Poppins';
-  font-size: 16px;
+  font-size: 20px;
   margin: 0px;
-  background-color: rgb(195,247,242);
+  background-color: rgb(225,245,244);
 }
 h1 {
   text-align: left;
@@ -38,5 +38,20 @@ a:hover {
 }
 .navbar-brand {
  display: block;
- margin-left: auto;
+ margin-left: 10px;
+}
+.navbar {
+    background-color: rgb(195,247,242);
+}
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(195,247,242);
+   color: black;
+   text-align: left;
+}
+li {
+  padding: 10px;
 }
