@@ -1,0 +1,42 @@
+body {
+  color: rgb(0,0,0);
+  font-family: 'Poppins';
+  font-size: 16px;
+  margin: 0px;
+  background-color: rgb(195,247,242);
+}
+h1 {
+  text-align: left;
+  font-size: 1.5em;
+  font-family: 'Bad Script', cursive;
+  color: rgb(0,0,0);
+}
+.logofont {
+  font-size: 1.5em;
+  font-family: 'Bad Script', cursive;
+}
+h2 {
+  font-size: 1em;
+  color: rgb(210,210,210);
+}
+p {
+margin: 10px;
+}
+img {
+  display: flex;
+  padding: 0px;
+  border-radius: 5px;
+}
+a {
+  color: rgb(0,0,0)
+}
+a:hover {
+  color: rgb(31,110,107);
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: rgb(195,247,242);
+}
+.navbar-brand {
+ display: block;
+ margin-left: auto;
+}
