@@ -1,22 +1,19 @@
 body {
   color: rgb(0,0,0);
   font-family: 'Poppins';
-  font-size: 20px;
+  font-size: 24px;
   margin: 0px;
-  background-color: rgb(225,245,244);
+  background-color: rgb(255,255,255);
 }
 h1 {
   text-align: left;
-  font-size: 1.5em;
+  font-size: 10vw;
   font-family: 'Bad Script', cursive;
   color: rgb(0,0,0);
 }
-.logofont {
-  font-size: 1.5em;
-  font-family: 'Bad Script', cursive;
-}
+
 h2 {
-  font-size: 1em;
+  font-size: 10vw;
   color: rgb(210,210,210);
 }
 p {
@@ -26,6 +23,7 @@ img {
   display: flex;
   padding: 0px;
   border-radius: 5px;
+  position: relative;
 }
 a {
   color: rgb(0,0,0)
@@ -33,25 +31,47 @@ a {
 a:hover {
   color: rgb(31,110,107);
 }
-.navbar-nav > li > .dropdown-menu {
-  background-color: rgb(195,247,242);
-}
-.navbar-brand {
- display: block;
- margin-left: 10px;
-}
-.navbar {
-    background-color: rgb(195,247,242);
-}
 .footer {
   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgb(195,247,242);
-   color: black;
    text-align: left;
+     font-family: 'Bad Script', cursive;
 }
+
 li {
-  padding: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+.navbar {
+  padding: 20px;
+  position: relative;
+}
+.container {
+  background-color: orange;
+}
+a.nav-link
+{
+  font-family: 'Bad Script', cursive;
+  font-size: 3vw;
+  padding: 0px;
+  align-items: center;
+}
+.navbar{
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav .nav-link {
+    display:inline-block;
+    float: none;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:
 }
