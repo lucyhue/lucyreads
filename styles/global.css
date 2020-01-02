@@ -73,5 +73,35 @@ a.nav-link
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:
+}
+@media only screen and (max-width: 300px) {
+  .logo {
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .logo {
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  a.nav-link {
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  a.nav-link {
+    font-size: 9vw;
+  }
+}
+@media only screen and (max-width: 300px) {
+  a.nav-link {
+    font-size: 15vw;
+  }
 }
