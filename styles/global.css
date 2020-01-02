@@ -73,5 +73,14 @@ a.nav-link
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:
+}
+@media only screen and (max-width: 300px) {
+  .logo {
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .logo {
+    min-width: 200px;
+  }
 }
