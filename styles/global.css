@@ -92,16 +92,16 @@ a.nav-link
 }
 @media only screen and (max-width: 1000px) {
   a.nav-link {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 }
 @media only screen and (max-width: 600px) {
   a.nav-link {
-    font-size: 9vw;
+    font-size: 3vw;
   }
 }
 @media only screen and (max-width: 300px) {
   a.nav-link {
-    font-size: 15vw;
+    font-size: 4vw;
   }
 }
