@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Lucy Reads</title>
+<title>Lucy Reads - Home</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles/global.css">
@@ -10,14 +10,14 @@
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
   <div>
-  <img class="w3-image" src="Logo.PNG" alt="Me" width="200" height="200">
+  <a href="index.html"><img class="w3-image" src="Logo.PNG" alt="Me" width="200" height="200"></a>
   </div>
 
   <!-- Navbar (placed at the bottom of the header image) -->
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-    <a href="#" class="w3-bar-item w3-button">Books</a>
-    <a href="#contact" class="w3-bar-item w3-button">Review</a>
-    <a href="#contact" class="w3-bar-item w3-button">About</a>
+    <a href="books.html" class="w3-bar-item w3-button">Books</a>
+    <a href="review.html" class="w3-bar-item w3-button">Review</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
   </div>
 </header>
 
@@ -40,7 +40,7 @@
   <div class="w3-col l8 s12">
     <!-- Blog entry -->
     <div class="w3-card-4 w3-margin w3-white">
-      <img src="Educated.JPG" alt="Nature" style="width:100%">
+      <img src="Educated2.JPG" alt="Nature" style="width:100%">
       <div class="w3-container">
         <h3><b>JANUARY 2020</b></h3>
         <h5>Educated, Tara Westover</h5>
@@ -76,6 +76,14 @@
         <h4><b>About</b></h4>
         <p>A virtual book club - full of suggestions, reviews and inspiration for 2020.</p>
       </div>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <a href="about.html"><p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p></a>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+
+        </div>
+      </div>
     </div><hr>
 
     <!-- Posts -->
@@ -85,7 +93,7 @@
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
-          <img src="Educated.JPG" alt="Image" class="w3-left w3-margin-right rotateimg90" style="width:50px">
+          <img src="Educated2.JPG" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">January 2020</span><br>
           <span>Educated by Tara Westover</span>
         </li>
@@ -127,21 +135,23 @@
     <hr>
     <p>Use this section to give a review of this month's book!</p>
 
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Book Title</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Rating /10</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-      <div class="w3-section">
-        <label>Review</label>
-        <input class="w3-input w3-border" required name="Message">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-    </form><br>
+    <form
+  action="https://formspree.io/mrgedpek"
+  method="POST"
+>
+  <label>
+    Book:
+    <input type="text" name="book">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 
   </div>
   <div class="footer">
