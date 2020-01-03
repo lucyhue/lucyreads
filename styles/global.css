@@ -265,3 +265,12 @@ textarea {
 .nounderline {
   text-decoration: none;
 }
+.insta {
+  vertical-align: bottom;
+  text-align: right;
+  margin: 5px;
+
+}
+.alignbottom {
+  vertical-align: bottom;
+}
