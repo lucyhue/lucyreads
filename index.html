@@ -40,10 +40,10 @@
   <div class="w3-col l8 s12">
     <!-- Blog entry -->
     <div class="w3-card-4 w3-margin w3-white">
-      <img src="Educated2.JPG" alt="Nature" style="width:100%">
+      <a href="books.html"><img src="Educated2.JPG" alt="Nature" style="width:100%"></a>
       <div class="w3-container">
-        <h3><b>JANUARY 2020</b></h3>
-        <h5>Educated, Tara Westover</h5>
+        <a href="books.html" class="nounderline"><h3><b>JANUARY 2020</b></h3></a>
+        <a href="books.html" class="nounderline"><h5>Educated, Tara Westover</h5></a>
       </div>
 
       <div class="w3-container">
@@ -52,7 +52,7 @@
           As she grew older, her father became more radical and her brother more violent. At sixteen, Tara knew she had to leave home. In doing so she discovered both the transformative power of education, and the price she had to pay for it.”</p>
         <div class="w3-row">
           <div class="w3-col m8 s12">
-            <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+            <a href="books.html"><p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p></a>
           </div>
           <div class="w3-col m4 w3-hide-small">
 
@@ -74,7 +74,7 @@
     <img src="Logo.PNG" style="width:100%">
       <div class="w3-container w3-white">
         <h4><b>About</b></h4>
-        <p>A virtual book club - full of suggestions, reviews and inspiration for 2020.</p>
+        <p>A virtual book club - full of suggestions, reviews and inspiration for 2020</p>
       </div>
       <div class="w3-row">
         <div class="w3-col m8 s12">
@@ -126,7 +126,6 @@
   </div><br>
 
   <!-- END w3-content -->
-  </div>
 
 
   <!-- Contact -->
@@ -134,24 +133,34 @@
     <h3 class="w3-center">Review</h3>
     <hr>
     <p>Use this section to give a review of this month's book!</p>
-
+    <div class="form">
     <form
-  action="https://formspree.io/mrgedpek"
-  method="POST"
->
+      action="https://formspree.io/mrgedpek"
+      method="POST"
+    >
+    <label>
+      Book<br>
+      <textarea name="book"></textarea>
+  </label><br>
   <label>
-    Book:
-    <input type="text" name="book">
-  </label>
+      Rating /10<br>
+      <textarea name="rating"></textarea>
+  </label><br>
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+      Review<br>
+      <textarea name="review"></textarea>
+  </label><br>
+  <label>
+      Your name (optional)<br>
+      <textarea name="name"></textarea>
   </label>
 
   <!-- your other form fields go here -->
 
-  <button type="submit">Send</button>
-</form>
+  <button type="submit" class="submitbutton">Send</button>
+  </form>
+  </div>
+</div>
 
   </div>
   <div class="footer">
