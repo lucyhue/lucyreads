@@ -274,3 +274,6 @@ textarea {
 .alignbottom {
   vertical-align: bottom;
 }
+.extrapadding {
+  padding: 15px;
+}
