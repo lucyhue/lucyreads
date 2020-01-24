@@ -262,6 +262,10 @@ textarea {
 .Lucy {
   text-align: center;
 }
+.textjustify {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .nounderline {
   text-decoration: none;
 }
