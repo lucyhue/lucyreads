@@ -335,3 +335,25 @@ textarea {
 .verticalalign {
   vertical-align: center;
 }
+
+#myDIV {
+  display: none;
+}
+
+.previous {
+  padding: 15px;
+  width:100%;
+
+}
+
+button {
+  background-color: #f1f1f1;
+}
+button:hover
+{background-color: #ddd;
+cursor: pointer;}
+
+button:hover, button:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}

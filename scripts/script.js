@@ -18,17 +18,13 @@ window.onclick = function(event) {
   }
 }
 
-// This is for the load more button
-$( document ).ready(function () {
-  $(".moreBox").slice(0, 3).show();
-    if ($(".blogBox:hidden").length != 0) {
-      $("#loadMore").show();
+
+
+  function myFunction2() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
-    $("#loadMore").on('click', function (e) {
-      e.preventDefault();
-      $(".moreBox:hidden").slice(0, 6).slideDown();
-      if ($(".moreBox:hidden").length == 0) {
-        $("#loadMore").fadeOut('slow');
-      }
-    });
-  });
+  }
