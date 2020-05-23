@@ -39,40 +39,33 @@
     <!-- Blog entry -->
     <div class="w3-card w3-margin">
       <div class="w3-container w3-padding">
-        <h4><strong>Select a book to read its synopsis and reviews</strong></h4>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Select a book to read its synopsis and reviews ></button>
+          <div id="myDropdown" class="dropdown-content">
+            <ul class="w3-ul w3-hoverable w3-white">
+              <li class="w3-padding">
+                <a href="#Jan2020"><img src="images/Educated2.JPG" alt="Educated" class="w3-margin-right verticalalign " class="nounderline" style="width:50px">January 2020 <em>Educated by Tara Westover</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Feb2020"><img src="images/circe.JPG" alt="Circe" class="w3-margin-right " class="nounderline" style="width:50px">February 2020 <em>Circe by Madeline Miller</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Mar2020"><img src="images/american-mar-sq.jpg" alt="An American Marriage" class="w3-margin-right " class="nounderline" style="width:50px">March 2020 <em>An American Marriage by Tayari Jones</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Apr2020"><img src="images/crawdads.JPG" alt="Crawdads" class="w3-margin-right" class="nounderline" style="width:50px">April 2020 <em>Where the Crawdads Sing by Delia Owens</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#May2020"><img src="images/daisyjones.JPG" alt="Daisy Jones" class="w3-margin-right" class="nounderline" style="width:50px">May 2020 <em>Daisy Jones & The Six by Taylor Jenkins Reid</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Jun2020"><img src="images/awomanisnoman.JPG" alt="A Woman is No Man" class="w3-margin-right" class="nounderline" style="width:50px">June 2020 <em>A Woman is No Man by Etaf Rum</em></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <ul class="w3-ul w3-hoverable w3-white">
-        <li class="w3-padding-16">
-          <a href="#Jan2020"><img src="images/Educated2.JPG" alt="Educated" class="w3-left w3-margin-right" style="width:50px"></a>
-          <a href="#Jan2020" class="nounderline"><span class="w3-large">January 2020</span><br></a>
-          <a href="#Jan2020" class="nounderline"><span><em>Educated by Tara Westover</em></span></a>
-        </li>
-        <li class="w3-padding-16">
-          <a href="#Feb2020"><img src="images/circe.JPG" alt="Circe" class="w3-left w3-margin-right" style="width:50px"></a>
-          <a href="#Feb2020" class="nounderline"><span class="w3-large">February 2020</span><br></a>
-          <a href="#Feb2020" class="nounderline"><span><em>Circe by Madeline Miller</em></span></a>
-        </li>
-        <li class="w3-padding-16">
-          <a href="#Mar2020"><img src="images/american-mar-sq.jpg" alt="An American Marriage" class="w3-left w3-margin-right" style="width:50px"></a>
-          <a href="#Mar2020" class="nounderline"><span class="w3-large">March 2020</span><br></a>
-          <a href="#Mar2020" class="nounderline"><span><em>An American Marriage by Tayari Jones</em></span></a>
-        </li>
-        <li class="w3-padding-16">
-          <a href="#Apr2020"><img src="images/crawdads.JPG" alt="Crawdads" class="w3-left w3-margin-right" style="width:50px"></a>
-          <a href="#Apr2020" class="nounderline"><span class="w3-large">April 2020</span><br></a>
-          <a href="#Apr2020" class="nounderline"><span><em>Where the Crawdads Sing by Delia Owens</em></span></a>
-        </li>
-        <li class="w3-padding-16">
-          <a href="#May2020"><img src="images/daisyjones.JPG" alt="Daisy Jones" class="w3-left w3-margin-right" style="width:50px"></a>
-          <a href="#May2020" class="nounderline"><span class="w3-large">May 2020</span><br></a>
-          <a href="#May2020" class="nounderline"><span><em>Daisy Jones & The Six by Taylor Jenkins Reid</em></span></a>
-        </li>
-        <li class="w3-padding-16">
-          <a href="#Jun2020"><img src="images/awomanisnoman.JPG" alt="A Woman is No Man" class="w3-left w3-margin-right" style="width:50px"></a>
-          <a href="#Jun2020" class="nounderline"><span class="w3-large">June 2020</span><br></a>
-          <a href="#Jun2020" class="nounderline"><span><em>A Woman is No Man by Etaf Rum</em></span></a>
-        </li>
-      </ul>
+
     </div>
     <hr>
 
@@ -432,6 +425,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
+    <script>/* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 <!-- End page content -->
 
 </body>
