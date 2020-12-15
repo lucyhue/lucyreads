@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Lucy Reads - Books</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/global.css">
+<link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <div>
+    <a href="index.html"><img class="w3-image" src="images/Logo.PNG" alt="Me" width="200" height="200"></a>
+  </div>
+
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="books.html" class="w3-bar-item w3-button">Books</a>
+    <a href="review.html" class="w3-bar-item w3-button">Review</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+  <div class="w3-bar w3-light-grey">
+    <a href="books.html" class="w3-bar-item w3-button">Books</a>
+    <a href="review.html" class="w3-bar-item w3-button">Review</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+  </div>
+</div>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+  <!-- Grid -->
+  <div class="w3-row">
+  <!-- Blog entries -->
+    <div class="w3-col s12">
+    <!-- Blog entry -->
+    <div class="w3-card w3-margin">
+      <div class="w3-container w3-padding">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Select a book to read its synopsis and reviews ></button>
+          <div id="myDropdown" class="dropdown-content">
+            <ul class="w3-ul w3-hoverable w3-white">
+              <li class="w3-padding">
+                <a href="archive.html#Jan2020"><img src="images/Educated2.JPG" alt="Educated" class="w3-margin-right verticalalign " class="nounderline" style="width:50px">January 2020 <em>Educated by Tara Westover</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="archive.html#Feb2020"><img src="images/circe.JPG" alt="Circe" class="w3-margin-right " class="nounderline" style="width:50px">February 2020 <em>Circe by Madeline Miller</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="archive.html#Mar2020"><img src="images/american-mar-sq.jpg" alt="An American Marriage" class="w3-margin-right " class="nounderline" style="width:50px">March 2020 <em>An American Marriage by Tayari Jones</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Apr2020"><img src="images/crawdads.JPG" alt="Crawdads" class="w3-margin-right" class="nounderline" style="width:50px">April 2020 <em>Where the Crawdads Sing by Delia Owens</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#May2020"><img src="images/daisyjones.JPG" alt="Daisy Jones" class="w3-margin-right" class="nounderline" style="width:50px">May 2020 <em>Daisy Jones & The Six by Taylor Jenkins Reid</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Jun2020"><img src="images/awomanisnoman.JPG" alt="A Woman is No Man" class="w3-margin-right" class="nounderline" style="width:50px">June 2020 <em>A Woman is No Man by Etaf Rum</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Jul2020"><img src="images/BLM.JPG" alt="BLM reads" class="w3-margin-right" class="nounderline" style="width:50px">July 2020 <em>Eight titles dedicated to black authors and the BLM movement</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Aug2020"><img src="images/giverofstars.JPG" alt="The Giver of Stars" class="w3-margin-right" class="nounderline" style="width:50px">August 2020 <em>The Giver of Stars by Jojo Moyes</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Sep2020"><img src="images/askagainyes.JPG" alt="Ask Again, Yes" class="w3-margin-right" class="nounderline" style="width:50px">September 2020 <em>Ask Again, Yes by Mary Beth Keane</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Oct2020"><img src="images/thosewhoareloved.JPG" alt="Those Who Are Loved" class="w3-margin-right" class="nounderline" style="width:50px">October 2020 <em>Those Who Are Loved by Victoria Hislop</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Nov2020"><img src="images/bigsky.JPG" alt="Big Sky" class="w3-margin-right" class="nounderline" style="width:50px">November 2020 <em>Big Sky by Kate Atkinson</em></a>
+              </li>
+              <li class="w3-padding">
+                <a href="#Dec2020"><img src="images/infiveyears.JPG" alt="In Five Years" class="w3-margin-right" class="nounderline" style="width:50px">December 2020 <em>In Five Years by Rebecca Serle</em></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="w3-card-4 w3-margin w3-white Lucy" id="Dec2020">
+      <a href="books.html"><img src="images/infiveyears.JPG" alt="In Five Years" style="width:50%"></a>
+        <div class="w3-container">
+          <a href="books.html" class="nounderline"><h3><b>DECEMBER 2020</b></h3></a>
+          <a href="books.html" class="nounderline"><h4>In Five Years by Rebecca Serle</h4></a>
+        </div>
+        <div class="w3-container ">
+          <p><em>Where do you see yourself in five years?</p></em>
+          <p>When Type-A Manhattan lawyer Dannie Kohan is asked this question at the most important interview of her career, she has a meticulously crafted answer at the ready. Later, after nailing her interview and accepting her boyfriend's marriage proposal, Dannie goes to sleep knowing she is right on track to achieve her five-year plan.</p>
+          <p>But when she wakes up, she’s suddenly in a different apartment, with a different ring on her finger, and beside a very different man. The television news is on in the background, and she can just make out the scrolling date. It’s the same night—December 15—but 2025, five years in the future.</p>
+          <p>After a very intense, shocking hour, Dannie wakes again, at the brink of midnight, back in 2020. She can’t shake what has happened and files it away in the back of her mind.</p>
+          <p>That is, until four-and-a-half years later, when by chance Dannie meets the very same man from her long-ago vision.</p>
+          <p>Brimming with joy and heartbreak, In Five Years is an unforgettable love story that reminds us of the power of loyalty, friendship, and the unpredictable nature of destiny.</p>
+          <br>
+          <div>
+            <h3><b>WHY PICK THIS BOOK?</b></h3>
+              <p>This book is set on the 15th December 2020 so we will be reading it at exactly the same time that the characters are experiencing it! I don't know about you, but lockdown has got me thinking about what the next few years are going to be like, so I'm hoping for an optimistic and wholesome story that fills us all with excitement for good things to come!</p>
+              <br>
+            <a href="https://uk.bookshop.org/shop/lucyreads" class="nounderline"><h3><b>BUY YOUR COPY HERE:</h3></b></a>
+            <a href="https://uk.bookshop.org/shop/lucyreads" target="_blank"><img src="images/bookshop.JPG" style="width:30%"></a>
+            <p> (I am an affiliate of Bookshop.org and I will earn a commission if you click through and make a purchase. This commission will go towards the costs of the Lucy Reads website.)</p>
+            <br>
+            <div>
+                <h3><b>LUCY'S REVIEW</b></h3>
+                <p><em>Not yet revealed</em></p>
+                <br>
+                <h3><b>READERS' REVIEWS</b></h3>
+                <p><em>Not yet revealed</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-card-4 w3-margin w3-white Lucy" id="Nov2020">
+        <a href="books.html"><img src="images/bigsky.JPG" alt="Big Sky" style="width:50%"></a>
+          <div class="w3-container">
+            <a href="books.html" class="nounderline"><h3><b>NOVEMBER 2020</b></h3></a>
+            <a href="books.html" class="nounderline"><h4>Big Sky by Kate Atkinson</h4></a>
+          </div>
+          <div class="w3-container ">
+            <p>Jackson Brodie has relocated to a quiet seaside village in North Yorkshire, in the occasional company of his recalcitrant teenage son Nathan and ageing Labrador Dido, both at the discretion of his former partner Julia. It's a picturesque setting, but there's something darker lurking behind the scenes.</p>
+            <p>Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, seems straightforward, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network-and back into the path of someone from his past. Old secrets and new lies intersect in this breathtaking new novel, both sharply funny and achingly sad, by one of the most dazzling and surprising writers at work today.</p>
+            <br>
+            <div>
+              <h3><b>WHY PICK THIS BOOK?</b></h3>
+                <p>A detective story set in North Yorkshire seems to be exactly what we all need right now! This book promises to be funny, intriguing and exciting and something quite different to everything we've read this year. It is the fifth Jackson Brodie novel, but there's no need to have read any of the others. I'm looking forward to reading this one and trying to solve the mystery before Mr Brodie himself!</p>
+                <br>
+              <a href="https://uk.bookshop.org/shop/lucyreads" class="nounderline"><h3><b>BUY YOUR COPY HERE:</h3></b></a>
+              <a href="https://uk.bookshop.org/shop/lucyreads" target="_blank"><img src="images/bookshop.JPG" style="width:30%"></a>
+              <p> (I am an affiliate of Bookshop.org and I will earn a commission if you click through and make a purchase. This commission will go towards the costs of the Lucy Reads website.)</p>
+              <br>
+              <div>
+                  <h3><b>LUCY'S REVIEW</b></h3>
+                  <p><em>I have to say that Big Sky wasn’t what I was expecting so it took me a while to get into it! Initially, I was overwhelmed by the new characters that seemed to be introduced every chapter, until I got to the point where I just thought each chapter would be about a different set of people. Despite the number of characters, I actually felt that we got to know their personalities really well, probably because so much of the book is told through dialogue. From Crystal, the WAG with a secret past, to Ronnie and Reggie, the cops who find themselves in the middle of a bigger operation than they thought, to Jackson Brodie himself, the slightly incompetent detective whose moral compass is stronger than his desire to do things “by the book”, I really enjoyed getting to know the characters in Big Sky. </p>
+                    <p>Set in Yorkshire, there were so many familiar place names in this book, which helped me imagine their journeys and the setting for their criminal activities. I found myself surprised at these - I was expecting more of a murder mystery and so felt shocked by the activities that were going on. I did feel that there should have been more of a warning on the cover, which called their activities “something darker lurking behind the scenes”. Considering the seriousness of what was going on, the somewhat hit and miss nature of the policing was disappointing and I found it hard to reconcile the light-hearted, almost trivial tone with the gravitas of the content.</p>
+                    <p>As the book went on, I found myself eager to turn the page and find out what had happened and how all the characters were related. The way Kate Atkinson wove together the different storylines was masterful and I felt satisfied that justice had been done at the end. Overall, not my favourite read this year (perhaps it helps to have read other Jackson Brodie stories before!), but something a bit different and full of interesting characters!</em></p>
+                  <br>
+                  <h3><b>READERS' REVIEWS</b></h3>
+                  <p><em>This book made me chuckle and smile! Much needed at the moment. There are many characters in the story and it moves along at a pace but the fantastic descriptions quickly make you feel that you know the main character, Jackson Brodie and his family and dog (‘ with rusty hips’). Because there are SO many characters it takes a while for all the strands to become woven together. Time is always shifting and you need to read large chunks at a time to keep up with the many story lines and events which often go back in time to give a different perspective.</p>
+                    <p>I loved many of the phrases that Kate Atkinson uses throughout the book...’...he couldn’t get the knowledge to rise up from the seabed of his memory - a dismal place with the rusting wreckage and detritus of his brain cells.’</p>
+                    <p>I actually ‘read’ this book as an audiobook and think that it probably worked better because there is so much dialogue and every word needs to be read and absorbed or you will miss vital threads. The downside is that I wanted to annotate the page on several occasions when reading the quiet musings of Jackson and the humour with his son.</p>
+                    <p>A good mystery story incorporating some serious issues. </em></p>
+                    <p><em>9/10</em></p>
+                    <p>------</p>
+                    <p><em>This book is a detective story depicting the grim, seedy and ruthless underworld of modern day slavery and sex trafficking which is not a topic I’d usually choose! However, it was very readable with an ever present sense of suspicion and menace compelling you to read on! There were a complex number of characters but they were described in great detail and became believable and recognisable. As the plot thickens the noose tightens around the interlinked criminals. The interconnections between all the characters slowly become apparent until you can’t wait to find out ‘who did it’. </p>
+                    <p>I am still not quite sure of one or two of the threads as it was a very complicated story and I would not say it was funny - in fact most of the characters are rather sad or miserable.</p>
+                    <p>8/10</p>
+                    <p>------</p>
+                    <p><em>The blurb for this book talks about Jackson Brodie's life not really going anywhere until he has a chance meeting with a man on a cliff top. That meeting doesn't happen until 150 pages in, so it's fair to say that there's a fair amount of not much happening. Then, when the action does get underway it's short segments that bounce among the different characters (three of whom die in about as many pages at one point!).</p>
+                      <p> I liked the premise, but it felt more like a screenplay than a book, almost serialised, with a huge cast of people who would get a small mention in the credits at the end. Hmm...</p>
+                    <p>6/10</p></em>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+    <div class="w3-card-4 w3-margin w3-white Lucy" id="Oct2020">
+      <a href="books.html"><img src="images/thosewhoareloved.JPG" alt="Those Who Are Loved" style="width:50%"></a>
+        <div class="w3-container">
+          <a href="books.html" class="nounderline"><h3><b>OCTOBER 2020</b></h3></a>
+          <a href="books.html" class="nounderline"><h4>Those Who Are Loved by Victoria Hislop</h4></a>
+        </div>
+        <div class="w3-container ">
+          <p>Athens, 1941. Nazi forces occupy Greece ... and a nation falls apart. Victoria Hislop's new Sunday Times Number One bestseller takes you into the darker days of Greek history and, through the eyes of its extraordinary heroine, illuminates the courage it takes to live in peace.</p>
+          <p>After decades of political uncertainty, Greece is polarised between Right- and Left-wing views when the Germans invade. Fifteen-year-old Themis comes from a family divided by these political differences. The Nazi occupation deepens the fault-lines between those she loves just as it reduces Greece to destitution. She watches friends die in the ensuing famine and is moved to commit acts of resistance.</p>
+          <p>Eventually imprisoned on the infamous islands of exile, Makronisos and then Trikeri, Themis encounters another prisoner whose life will entwine with her own in ways neither can foresee. And finds she must weigh her principles against her desire to escape and live.</p>
+          <p>As she looks back on her life, Themis realises how tightly the personal and political can become entangled. While some wounds heal, others deepen.</p>
+          <br>
+          <div>
+            <h3><b>WHY PICK THIS BOOK?</b></h3>
+              <p>I love a strong female protagonist! Themis sounds like an incredible character, who fights for what she believes in and never loses sight of her goal of peace. I've also never considered what life was like in Greece during the Second World War, so can only imagine the devastating effects of the war on this beautiful country.</p>
+              <br>
+              <a href="https://uk.bookshop.org/shop/lucyreads" class="nounderline"><h3><b>BUY YOUR COPY HERE:</h3></b></a>
+              <a href="https://uk.bookshop.org/shop/lucyreads" target="_blank"><img src="images/bookshop.JPG" style="width:30%"></a>
+              <p> (I am an affiliate of Bookshop.org and I will earn a commission if you click through and make a purchase. This commission will go towards the costs of the Lucy Reads website.)</p>
+              <br>
+            <div>
+                <h3><b>LUCY'S REVIEW</b></h3>
+                <p><em>This is a great book for those long, chilly autumn evenings - I have certainly enjoyed snuggling up with my copy of Those Who Are Loved and a cuppa this October! This is a book that takes you back in time to experience the troubles of Nazi-invaded Greece, the political turmoil it causes and the the lasting effects on generations to come. We see the story through the eyes of Themis over almost 90 years and get to know a family over five generations, but each character is constructed in such a way that we feel we know them completely. Family is at the heart of this book, and the difficult balance of family and politics comes back time and time again.</p>
+                  <p>There are so many bits that have stayed with me and I want to mention in this review. The wedge driven between her siblings by their opposing political views marks the beginning of this book. The death of Themis’ closest friend, Fotini, due to the lack of resources during the occupation is the catalyst for her political activity. She escapes from Athens and fights for what she believes in, and it is fascinating to hear of her experiences at this time, bearing in mind the old lady we are introduced to in the prologue. We feel great sympathy when Themis decides to sign the agreement that states her regret at being part of the communist army in order to save her son, the great weight of this decision and the pain it causes her. We feel her later disappointment when her son, born during her imprisonment on Trikeri and thus a child of the communist army, later abandons his Greek heritage in favour of the bright lights and money-making opportunities of America, showing no interest in the political upheaval of his home country. And finally, we appreciate the full-circle nature of things at the end of the novel, when his son and Themis’ grandson, Nikos, is said to be a lecturer in political economy, and seems as dedicated towards fairness and equality as his namesake uncle. As well as realigning Angelos with his family, the inclusion of the younger Nikos shows that the fight that Themis experienced in her youth has passed down the generations, and we feel satisfied that goodness will prevail in the end.</p>
+                  <p>What a book! I hope you enjoyed it as much as I did. It took me a little while to get into, as Victoria Hislop weaves in a great amount of political history as the backdrop for her story, which can be quite dense! However, this only serves to create a rich context for events to unfold against and gives the reader a deeper understanding of the characters’ choices. A great October read and one that will stay with me for a long time.</em></p>
+                <br>
+                <h3><b>READERS' REVIEWS</b></h3>
+                <p><em>Love. War. Peace. Hate. This book had everything - what an emotional journey!</p>
+                <p>9/10</em></p>
+                <p>------</p>
+                <p><em>I absolutely loved this book. One of the best I have ever read. I knew nothing of the history of Greece that was so well explained during the story. I really enjoyed learning through reading a fictional story. Some parts of the book were heartbreaking. The loss of Nikos had me in tears. The fact that it was such a family orientated book was also lovely to read, allowing you to feel something for each character and the bonds. I will read some more by this author. </p>
+                <p>10/10</em></p>
+                <p>------</p>
+                <p><em>I have never read such an emotional book. It was amazing to experience all aspects of human life rendered so movingly on the page. The characters were skilfully drawn and their historical moment had clear resonances with today’s culture. However, it was quite a long book and I found the historical content quite heavy. Five stars - would recommend! </p>
+                <p>10/10</em></p>
+                <p>------</p>
+                <p><em>I'm a fan of Victoria Hislop anyway and was half-way through this book when it was announced as October's book. (If anyone wants to try another VH, The Island is also excellent). I loved this book as much as the others: it was so full of emotion and strength in the face of heartbreaking divisions playing out in the family flat and on the world stage. I didn't know much about the history of Greece in the period after the war, and had previously under-appreciated the awful consequences of the famine that killed Fotini before reading this. Against all the political turmoil I loved how Greek the whole thing felt through the little details: the ubiquity of churches, the descriptions of the old ladies' clothes, the smoking, the olive groves and the mountains. Ultimately, it felt like being in Greece again.</p>
+                  <p>10/10</p></em>
+                <p><em>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+    <div class="w3-card-4 w3-margin w3-white Lucy" id="Sep2020">
+      <a href="books.html"><img src="images/askagainyes.JPG" alt="Ask Again, Yes" style="width:50%"></a>
+        <div class="w3-container">
+          <a href="books.html" class="nounderline"><h3><b>SEPTEMBER 2020</b></h3></a>
+          <a href="books.html" class="nounderline"><h4>Ask Again, Yes by Mary Beth Keane</h4></a>
+        </div>
+        <div class="w3-container ">
+          <p>A gripping and compassionate drama of two families linked by chance, love and tragedy.</p>
+          <p>Gillam, upstate New York: a town of ordinary, big-lawned suburban houses. The Gleesons have recently moved there and soon welcome the Stanhopes as their new neighbours.</p>
+          <p>Lonely Lena Gleeson wants a friend but Anne Stanhope - cold, elegant, unstable - wants to be left alone.</p>
+          <p>It's left to their children - Lena's youngest, Kate, and Anne's only child, Peter - to find their way to one another. To form a friendship whose resilience and love will be almost broken by the fault line dividing both families, and by the terrible tragedy that will engulf them all.</p>
+          <p>A tragedy whose true origins only become clear many years later . . .</p>
+          <p>A story of love and redemption, faith and forgiveness, Ask Again, Yes reveals the way childhood memories change when viewed from the distance of adulthood - villains lose their menace, and those who appeared innocent seem less so. </p>
+          <p>A story of how, if we're lucky, the violence lurking beneath everyday life can be vanquished by the power of love. </p>
+          <br>
+          <div>
+            <h3><b>WHY PICK THIS BOOK?</b></h3>
+              <p>I love a family drama and the relationship between the Gleesons and the Stanhopes, not to mention the secrets in their past, has got me intrigued. I hope you enjoy this one!</p>
+              <br>
+              <a href="https://uk.bookshop.org/shop/lucyreads" class="nounderline"><h3><b>BUY YOUR COPY HERE:</h3></b></a>
+              <a href="https://uk.bookshop.org/shop/lucyreads" target="_blank"><img src="images/bookshop.JPG" style="width:30%"></a>
+              <p> (I am an affiliate of Bookshop.org and I will earn a commission if you click through and make a purchase. This commission will go towards the costs of the Lucy Reads website.)</p>
+              <br>
+            <div>
+                <h3><b>LUCY'S REVIEW</b></h3>
+                <p><em>This book has tragedy at its centre - the shooting of Francis Gleason by next door neighbour, Anne Stanhope, is something that shakes both families immeasurably and leads to rifts that you would think unhealable. And yet both before and after the incident, their children, Kate and Peter, are drawn to each other, connected by their childhood love and the bond of having gone through the same tragedy, albeit on different sides. </p>
+                  <p>The chapters often flick between the Gleesons and the Stanhopes, and because we get to know both families, I found myself swinging between them like a pendulum, unable to decide where my loyalty lay. As the book draws towards its conclusion, Mary Beth Keane shows us that the impacts of our actions aren’t simply limited to the time and place when they are committed, but that they are felt through the generations. You can’t help but feel that Peter’s alcoholism is not the the product of a single factor: it could be due to his father leaving him, which may in turn be due to his own father’s alcoholism before that; it could be due to his mother’s poor mental health, which again could be due to her own mother’s suicide; and it could of course be triggered by the shooting incident itself and the longer term complications of living with the knowledge that your own mother shot your wife’s father. These are complex characters with complex lives, which make for a truly compelling read. </p>
+                  <p>The novel ends on an optimistic note, regardless of its tragic contents. Despite everything that has happened in their lives, Peter and Kate’s relationship is strong and Kate reveals that if she had known everything that they would go through, she would still have said "yes" to Peter’s proposal. At the close, the obvious wronged party in the whole book, Francis Gleeson, displays incredible forgiveness as he surveys his family, including the child of the woman who shot him, and considers his good fortune. Certainly this is a lesson in generosity of spirit for all of us. </p>
+                  <p>I really enjoyed this book and couldn’t put it down! Read it if you get the chance!</em></p>
+                <br>
+                <h3><b>READERS' REVIEWS</b></h3>
+                <p><em>I absolutely loved this brilliantly written book! Essentially it is a love story set in current times. I was gripped from the first few pages and found it incredibly compelling! It is a very moving story about the power of love, hope and forgiveness. It also shows how healing can slowly take place even after tragic events have had life changing consequences.</p>
+                  <p>I felt very connected to the families in this story because of the incredible detail and emotion portrayed about them by the author. I couldn’t stop thinking about this book and I will definitely order another by Mary Beth Keane.</em></p>
+                <p><em>10/10</em></p>
+                <p>------</p>
+                <p><em>This is a slow burn read.  I was waiting for more action, but the book was more about the fallout following a single event.  I really felt for Peter and I thought Kate was incredibly strong.  She had to stick to her guns and fight to get the man she wanted and then fight to keep him.  I enjoyed reading about their marriage and how it’s not all hearts and flowers. </p>
+                  <p> I did think a secret about the night of the shooting was going to be revealed towards the end of the book, but there wasn’t any big reveal.  Overall, a pleasant read that bumbled along and kept me interested.</em></p>
+                <p><em>7/10</em></p>
+                <p>------</p>
+                <p><em>Ask Again, Yes is a novel about forgiveness and love, blame and regret with a tinge of sadness all the way through. It has a breadth to it in both characters and time but much of the story happens off the pages and the time scale is fast.</p>
+                <p> I didn’t like the title of the book and trying to work out its relevance was distracting, but at the end of every chapter I found myself starting the next one. All in all a good read and one that will stay with you for quite a while.</p>
+                <p>8/10</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+    <div class="w3-card-4 w3-margin w3-white Lucy" id="Aug2020">
+      <a href="books.html"><img src="images/giverofstars.JPG" alt="The Giver of Stars" style="width:50%"></a>
+        <div class="w3-container">
+          <a href="books.html" class="nounderline"><h3><b>AUGUST 2020</b></h3></a>
+          <a href="books.html" class="nounderline"><h4>The Giver of Stars by Jojo Moyes</h4></a>
+        </div>
+        <div class="w3-container ">
+          <p>Alice Wright marries handsome American Bennett Van Cleve hoping to escape her stifling life in England.  But small-town Kentucky quickly proves equally claustrophobic, especially living alongside her overbearing father-in-law. So when a call goes out for a team of women to deliver books as part of Eleanor Roosevelt’s new traveling library, Alice signs on enthusiastically.</p>
+          <p>The leader, and soon Alice’s greatest ally, is Margery, a smart-talking, self-sufficient woman who’s never asked a man’s permission for anything. They will be joined by three other singular women who become known as the Packhorse Librarians of Kentucky. </p>
+          <p>What happens to them–and to the men they love–becomes an unforgettable drama of loyalty, justice, humanity and passion. These heroic women refuse to be cowed by men or by convention. And though they face all kinds of dangers in a landscape that is at times breathtakingly beautiful, at others brutal, they’re committed to their job: bringing books to people who have never had any, arming them with facts that will change their lives.</p>
+          <p>Based on a true story rooted in America’s past, The Giver of Stars is unparalleled in its scope and epic in its storytelling. Funny, heartbreaking, enthralling, it is destined to become a modern classic–a richly rewarding novel of women’s friendship, of true love, and of what happens when we reach beyond our grasp for the great beyond. </p>
+          <br>
+          <div>
+            <h3><b>WHY PICK THIS BOOK?</b></h3>
+              <p>We've read some pretty heavy and serious books in the past few months, so I'm looking forward to reading something a little more light-hearted. The idea of a group of women fighting against convention to bring books to those who need them sounds like the ideal book for Lucy Reads!</p>
+              <br>
+              <a href="https://uk.bookshop.org/shop/lucyreads" class="nounderline"><h3><b>BUY YOUR COPY HERE:</h3></b></a>
+              <a href="https://uk.bookshop.org/shop/lucyreads" target="_blank"><img src="images/bookshop.JPG" style="width:30%"></a>
+              <p> (I am an affiliate of Bookshop.org and I will earn a commission if you click through and make a purchase. This commission will go towards the costs of the Lucy Reads website.)</p>
+              <br>
+            <div>
+                <h3><b>LUCY'S REVIEW</b></h3>
+                <p><em>This is a great holiday read and I can see why it has been so popular! The characters Jojo Moyes creates are so relatable and as you hear about their lives and picture the library, you really feel that you are one of them. I loved the character of Margery - there’s something so exciting about her refusal to conform to expectations of women, but also the strength of her relationship with Sven and her showing that, even in those times, it was possible to have a job and a family and thrive. I really felt that Margery’s conviction of character rubbed off on Alice throughout her time in Baileyville. In one sense, it was sad that Alice had to suffer so much at the hands of the Van Cleves and I would have loved to scoop her up and protect her from it all, but in another, I was pleased that she gained a real sense of self throughout the book, built strong relationships with people who liked her for who she was, and really stood up for her friends and her beliefs. </p>
+                  <p>I was amazed to read at the end of the book that Packhorse Libraries did exist in the mid-20th century and that they were indeed organised by women. Moyes gives us a sense of the challenge this posed for many rural communities, who disapproved of young women riding all day to deliver books, sometimes in the most difficult terrains and weather conditions. The work that these women did in bringing books and, in a wider sense, opportunities for education to rural communities, and particularly to women, was incredible, and I found myself imagining what it must have been like to be a packhorse librarian at that time. The joy of reading and talking about books is something that is captured beautifully in The Giver of Stars and which I think the members of Lucy Reads can all relate!</em></p>
+                <br>
+                <h3><b>READERS' REVIEWS</b></h3>
+                <p><em>I enjoyed the rapport between the girls and how kind they were to everyone in their local area, even those who others thought worthless. They really stood by each other in troublesome times. I hated reading about the Van Cleves and how bitter they were towards Alice. It’s no wonder it didn’t work out! I thought The Giver of Stars was a really good book and I would definitely recommend it!</em></p>
+                <p><em>9/10</em></p>
+                <p>------</p>
+                <p>‘This town could polish a piece of gossip and preserve it like an insect in amber.’ (p266)</p>
+                <p><em>The Giver of Stars is based on a true story, well written and researched. It takes place in the 30’s Depression and is the story of five extraordinary characters in small town Kentucky. We can relate to the Packhorse Librarians, as they become known, but also be inspired by them because of their strength, friendship and courage. Tension builds throughout the book and you feel yourself willing the female characters to succeed in their plight.</p>
+                <p>A book of love, humour and heartache. Compelling!</p>
+                <p>9/10</em></p>
+                <p>------</p>
+                <p><em>I found this book took a while to warm up for me. I love that it was based on an organisation that really existed. The women must have been so brave to deal with the terrain, the weather and also mens’ opinion of them.</p>
+                  <p>I loved Margery, she was my hero in this book. It reminded me of Little Women with a twist of Charles/Diana/Camilla ... Felt like a holiday romance that went badly wrong. I was so pleased Alice got a happy ending.</p>
+                <p>8/10</p></em>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <button onclick="myFunction2()" class="previous">Show/hide previous months</button>
+
+      <div id="myDIV">
+
+
+
+      <div class="w3-card-4 w3-margin w3-white Lucy" id="Jul2020">
+        <a href="books.html"><img src="images/BLM.JPG" alt="BLM reads" style="width:50%"></a>
+          <div class="w3-container">
+            <a href="books.html" class="nounderline"><h3><b>JULY 2020</b></h3></a>
+            <a href="books.html" class="nounderline"><h4>A month dedicated to black authors and the BLM movement</h4></a>
+          </div>
+          <div class="w3-container ">
+            <p>Books give us the opportunity to step into someone else’s shoes and see the world from their angle. With increased empathy comes an increased responsibility to ensure we are acting fairly and justly, and to ensure that race has no bearing on how we treat people.</p>
+            <p>I know that in order to become race blind, we need to be race aware, which is why in July, Lucy Reads will host a free-choice month dedicated to black authors and the BLM movement with eight incredible titles to choose from. No matter which one/ones you pick, we'd love to read your review.</p>
+            <p><b>Americanah by Chimamanda Ngozi Adichie</b></p>
+            <p>As teenagers in Lagos, Ifemelu and Obinze fall in love. Their Nigeria is under military dictatorship, and people are fleeing the country if they can. The self-assured Ifemelu departs for America. There she suffers defeats and triumphs, finds and loses relationships, all the while feeling the weight of something she never thought of back home: race. Obinze had hoped to join her, but post-9/11 America will not let him in, and he plunges into a dangerous, undocumented life in London.</p>
+            <p>Thirteen years later, Obinze is a wealthy man in a newly democratic Nigeria, while Ifemelu has achieved success as a blogger. But after so long apart and so many changes, will they find the courage to meet again, face to face? </p>
+            <p><b>On Beauty by Zadie Smith</b></p>
+            <p>Set in New England mainly and London partly, On Beauty concerns a pair of feuding families - the Belseys and the Kipps - and a clutch of doomed affairs. It puts low morals among high ideals and asks some searching questions about what life does to love. </p>
+            <p> For the Belseys and the Kipps, the confusions - both personal and political - of our uncertain age are about to be brought close to home: right to the heart of family. </p>
+            <p><b>Queenie by Candice Carty-Williams</b></p>
+            <p> Caught between the Jamaican British family who don’t seem to understand her, a job that’s not all it promised and a man she just can’t get over, Queenie’s life seems to be steadily spiralling out of control. Desperately trying to navigate her way through a hot mess of shifting cultures and toxic relationships and emerge with a shred of dignity, her missteps and misadventures will provoke howls of laughter and tears of pity – frequently on the same page. </p>
+            <p><b>Between the World and Me by Ta-Nehisi Coates</b></p>
+            <p>An attempt to answer questions about race in America, in the form of a letter to the author's 14-year-old son.</p>
+            <p>Coates takes readers along on his journey through America's history of race and its contemporary resonances through a series of awakenings - moments when he discovered some new truth about our long, tangled history of race, whether through his myth-busting professors at Howard University, a trip to a Civil War battlefield, a journey to Chicago's South Side to visit aging survivors of 20th century America's "long war on black people," or a visit with the mother of a beloved friend who was shot down by the police. </p>
+            <p><b>Girl, Woman, Other by Bernadine Evaristo</b></p>
+            <p> Girl, Woman, Other follows the lives and struggles of twelve very different characters. Mostly women, black and British, they tell the stories of their families, friends and lovers, across the country and through the years. </p>
+            <p> Joyfully polyphonic and vibrantly contemporary, this is a gloriously new kind of history, a novel of our times: celebratory, ever-dynamic and utterly irresistible. </p>
+            <p><b>Stay with Me by Ayobami Adebayo</b></p>
+            <p> Yejide is hoping for a miracle, for a child. </p>
+            <p> It is all her husband wants, all her mother-in-law wants, and she has tried everything - arduous pilgrimages, medical consultations, dances with prophets, appeals to God. But when her in-laws insist upon a new wife, it is too much for Yejide to bear. It will lead to jealousy, betrayal and despair. </p>
+            <p><b>The Underground Railroad by Colson Whitehead</b></p>
+            <p> Cora is a slave on a cotton plantation in Georgia. All the slaves lead a hellish existence, but Cora has it worse than most; she is an outcast even among her fellow Africans and she is approaching womanhood, where it is clear even greater pain awaits. When Caesar, a slave recently arrived from Virginia, tells her about the Underground Railroad, they take the perilous decision to escape to the North. </p>
+            <p><b>Homegoing by Yaa Gyasi</b></p>
+            <p> Effia and Esi: two sisters with two very different destinies. One sold into slavery; one a slave trader's wife. </p>
+            <p> The consequences of their fate reverberate through the generations that follow. As each chapter offers up a new descendant, alternating between Effia’s and Esi’s bloodline right up to the present day, a chasm of experience and the differing legacies of chance are brought starkly to light.</p>
+            <br>
+            <div>
+
+              <div>
+                  <h3><b>LUCY'S REVIEW</b></h3>
+                  <p><b>Americanah by Chimamanda Ngozi Adichie</b></p>
+                  <p><em>For me, Americanah’s key strength is in its portrayal of Ifemelu’s experiences in America and her struggle to understand how she is treated. I didn’t find the character of Obinze as convincing or interesting, and wasn’t that engaged by the underlying plot of the couple being separated then reunited. But I loved reading about the character of Ifemelu and it was her sections of the book that opened my eyes to matters of race I’d never thought about before. Ifemelu says that she didn’t even realise she was black before she went to America, which perfectly summarises the issues explored by Adichie in Americanah.</p>
+                  <p>I found the different attitudes shown by the characters both fascinating and appalling, and the ones that struck me most were those who didn’t seem racist on the surface, such as Kimberly, Ifemelu’s babysitting employer, and her sister Laura. Both are keen to show that they aren’t racist in any way. However, there were many issues with their attitudes towards race which must be unconsciously shared by many. The expectation they have about Africa being a simple, uncivilised place where all vegetables must be organic as the society isn’t advanced enough to have mass-produced them, is one example of their underlying condescension towards black people. The characters are keen to state that they are helping Africans out as much as they can through their charitable donations, epitomising the “white saviour” trope and, although they speak with good intentions, they betray their ignorance of the countries they are “helping”. There must be so many people like Kimberly and Laura who don’t see themselves as racist but act in ways that continue to reinforce racist stereotypes.</p>
+                  <p>On other occasions, Ifemelu is told that her name is “beautiful”, which seems to be used as a synonym for “different” or “foreign”. When she meets new people, conversation turns their holidays in Africa and they chat as if safaris are part of every day life for anyone African. Ifemelu is often subjected to racial bias, whether that be in her struggle to get a job interview or her refusal to be seen at the hairdressers until her white boyfriend intervenes. While reading, I found myself questioning my own attitudes towards race, mortified in case I have ever displayed behaviour that mirrored Ifemelu’s experiences in Americanah. In terms of raising awareness, educating and encouraging her readers to be critical of their own attitudes towards race, I think Adichie has been very successful and I would highly recommend this book.</em></p>
+                  <br>
+                  <h3><b>READERS' REVIEWS</b></h3>
+                  <p><b>Queenie by Candice Carty Williams</b></p>
+                  <p><em>I loved Queenie. She is such a relatable character and I found myself laughing and crying as I read her story. By the end of the book, she learns to make good choices for herself and I felt empowered by her new-found strength. A great book!<p>
+                  <p>9/10</em></p>
+                  <p>------</p>
+                  <p><b>On Beauty by Zadie Smith</b></p>
+                  <p><em>I was intrigued by the blurb for this book so thought I would give it a go! I haven't read any books by Zadie Smith before but I will certainly be exploring her other books now. On Beauty is an incredibly powerful story which gripped me from start to finish (it is quite a long book!). The story is at once personal yet universal and paints a vivid picture of family life. Highly recommended! <p>
+                  <p>8/10</em></p>
+                  <p>------</p>
+                  <p><b>Stay with Me by Ayobami Adebayo </b></p>
+                  <p><em>This book is a very easy and quick read.  I have never considered what life is like in Nigeria and it certainly opened my eyes.  It’s not a book about racism, it’s about the regime they must live under and the expectations of a woman.  Interesting that it’s never considered that the man might not be able to get his wife pregnant, only that there must be something wrong with the wife, she is useless.  I loved the ending, like putting a plaster on years of heartbreak.  I would recommend this book.</p>
+                  <p>8/10</p>
+                    <p>------</p>
+                  <p>Stay With Me is a heart wrenching story of a devoted and besotted couple, Akin and Yejide, whose marriage crumbles due to an inability to conceive. The cultural pressure to bear children forces drastic actions to be taken and as a result lead to dire consequences for both adults and children within their families. Overwhelming heartache and grief cause Yejide to become increasingly depressed and she detaches herself from the loves of her life. Apart from one friend, she has very little support from anyone despite all her suffering, and she also has to cope with a dominant mother in law who is quick to chide and criticise this young wife.</p>
+                  <p>The two sides of the marital breakdown are described in separate reports from both Akin and Yejide and you get a sense of the love, difficulties and despair they both feel. Thankfully, time heals and hope for a happier future is offered. </p>
+                  <p>7/10</p></em>
+                  <p>------</p>
+                  <p><b>Americanah by Chimamanda Ngozi Adichie</b></p>
+                  <p><em>I have to admit that I struggled to keep going with this book. I stopped at one point in order to research the Nigerian history that Ifemelu grew up with, as I was struggling to find any link to her. Whilst I enjoyed the research, it didn't help me to find an emotional link to Ifemelu's character. As I got further into the book I got more drawn in to the experiences of racism that she, Obinze and others experience, but again, I didn't have the same kind of emotional response as I did to A Woman Is No Man last month, despite the context being just as unfamiliar to my own experiences. In many ways, the cultural constraints seemed similar - there is an expectation on Ifemelu and Obinze to study abroad, love the West and remain Nigerian - but perhaps because of Ifemelu's cynical disdain for herself, and the corrupt posturing of the Nigeria she returns to (especially the Nigerpolitan club) I also found it hard to care.</p>
+                  <p>7/10</p></em>
+                  <p>------</p>
+                  <p><b>Between the World and Me by Ta-Nehisi Coates</b></p>
+                  <p><em>Between the World and Me is an incredibly powerful read, made even more poignant due to the fact that it takes the form of a letter which Coates writes to his teenage son. Throughout the letter, Coates interweaves history with stories from his own past and journalism as well as direct addresses to his son which all culminate in a heartbreaking, challenging and unforgettable narrative. Ultimately, this book is a letter that no parent should have to write but one that everyone must read.</p></em>
+                 </p>-------</p>
+                 <p><em>This book is a letter from a black father to his teenage son. It talks about the history of black Americans, the father’s experience growing up, headline events and how he hopes his son can deal with prejudice. It wasn’t an easy read for me as I like chapters and at points this book felt like long periods of ranting. I understand the point of the book, it shouldn’t need to be a thing to be written about, but I felt that I could never fully understand as a white woman.  What black Americans go through is so far removed from how I grew to understand the world. Innocent people feeling fear in such a powerful country, where you would assume people of all races can just exist side by side. America needs to sort this out!!</p>
+                  <p>6/10</em></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+      <div class="w3-card-4 w3-margin w3-white Lucy" id="Jun2020">
+        <a href="books.html"><img src="images/awomanisnoman.JPG" alt="A Woman is No Man" style="width:50%"></a>
+          <div class="w3-container">
+            <a href="books.html" class="nounderline"><h3><b>JUNE 2020</b></h3></a>
+            <a href="books.html" class="nounderline"><h4>A Woman is No Man by Etaf Rum</h4></a>
+          </div>
+          <div class="w3-container ">
+            <p>Three generations of Palestinian-American women living in Brooklyn are torn between individual desire and the strict mores of Arab culture in this heart-wrenching story of love, intrigue and courage.</p>
+            <p>Palestine, 1990. Seventeen-year-old Isra prefers reading books to entertaining the suitors her father has chosen for her. Over the course of a week, the naive and dreamy girl finds herself quickly betrothed and married, and is soon living in Brooklyn. There Isra struggles to adapt to the expectations of her oppressive mother-in-law Fareeda and strange new husband Adam, a pressure that intensifies as she begins to have children - four daughters instead of the sons Fareeda tells Isra she must bear.</p>
+            <p>Brooklyn, 2008. Eighteen-year-old Deya, Isra's oldest daughter, must meet with potential husbands at her grandmother Fareeda's insistence, though her only desire is to go to college. But her grandmother is firm on the matter: the only way to secure a worthy future for Deya is through marriage to the right man.</p>
+            <p>But fate has a will of its own, and soon Deya will find herself on an unexpected path that leads her to shocking truths about her family...</p>
+            <br>
+            <div>
+              <h3><b>WHY PICK THIS BOOK?</b></h3>
+                <p>When I read the blurb of this book, I was immediately reminded of one of my favourite books from my schooldays, A Thousand Splendid Suns by Khaled Hosseini. I then saw a couple of reviews, which made the same link, so I am hopeful that this is going to be a similarly powerful book.<p>
+                <p>Dealing with three generations of women and the family and cultural pressures they face, Etaf Rum gives a voice to the previously unheard.</p>
+                <br>
+              <div>
+                  <h3><b>LUCY'S REVIEW</b></h3>
+                  <p><em>My initial response to the subject matter of this book is one of disbelief; I find it hard to imagine that women are suffering like Isra around the world in the ways described in this book, and yet that is why Etaf Rum has written it. The shockingly recent dates, with much of the book set in the 1990s and 2000s, confirm that Rum isn’t talking about how things used to be for women in many cultures, but how they still are. A Woman is No Man gives a strong insight into the lives of three generations of women, through the characters of Fareeda, Isra and Deya, and the expectations placed upon them and, very importantly, gives them a voice. Through tackling difficult matters such as arranged marriages, domestic abuse and self-acceptance, this book will hopefully increase reader awareness and give some a mirror through which they may be able to question their own experiences or those around them.</p>
+                    <p>I was aware while reading the book that my own views on arranged marriages were bound to cloud my overall judgement and I knew I would find myself siding with the dispossessed women against their patriarchal society. The book had a strong and single-minded agenda, and I am aware of its portrayal of Arab culture and particularly Arab males in a very negative light. As well as giving some women hope, I do wonder whether there is a risk that many readers will have a renewed negative view of the entire culture, and worry that this may contribute to future xenophobia. Certainly, I cannot see any positives from the portrayal of Arab culture in this book, and the conclusion seems to be very much in favour of Americanism, which feels one sided.</p>
+                    <p>The last chapter was a little unexpected and provided one of the few more nuanced parts of the book. We are never told whether the scene of Isra and her daughters in the train station actually happened and was the final straw that led to Adam acting as he did, or whether this was a fictional new chapter written by Deya for her mother, in which they escaped and moved towards the “happily ever after” ending that Isra had dreamed of. The empowering of Deya not only enabled her to pursue her dreams, by going to college and writing her story, but could therefore have effectively freed Isra, through realising the strength in her character and giving her a new ending. Although Rum doesn’t give us any idea which is the case, this helps add another dimension to the empowerment of women, indicating that it is not too late for older generations to break free, and that the younger generation will help them do it. Perhaps this mirrors Rum’s intention for her book and the impact it will have on all generations of readers. It has certainly left me thinking!</em></p>
+                  <br>
+                  <h3><b>READERS' REVIEWS</b></h3>
+                  <p><em>This story is told by 3 generations of Muslim women from 1990 to 2009, some of whom stay in Palestine and some who move to America in search of a better life. Ultimately, it is a harrowing depiction of the mental and physical abuse these women suffer as they obey the religious, cultural and traditional demands of the dominant males in the family. The stigma of good reputation and family honour must be maintained at all times. It was very much that ' a women's place is in her home'.</p>
+                  <p> I found the forced marriages and the pressure put on very young women to bear male babies was the most desperate part of this book.The families are poor and severe depression is dismissed as 'the jinn' or curse so not treated.  A glimmer of hope for the future arises as one grandaughter dares to assert her own choices over her life. This book has the most heart rending conclusion of any novel I've read.</em></p>
+                  <p><em>8/10</em></p>
+                  <p>------</p>
+                  <p><em>I found this book hard to get into at first, but once I was in I was hooked.  It is a very sad and desperate story. I found it shocking how recent the story is pitched; as a Western woman I like to believe that women are not living this life any more, especially when they have moved to a “free” country.</p>
+                    <p> It really doesn’t portray Arab men in a good light .... Adam did have a lot of pressure on him and I could see why he turned to drink! Obviously that's not an excuse for his behaviour towards Isra. Nadine seemed to know how to work the system, or was it just that she had sons? I got the impression that she would beat her husband if he laid a finger on her! </p>
+                    <p>Weird ending - it confused me - but I think that was Deya writing her own story, as she said she would when stood in the library.</p>
+                    <p>A heart breaking story but a good read. Leaves you wondering when life can change for women still existing in these arrangements.<p>
+                  <p>8/10</em></p>
+                  <p>------</p>
+                  <p><em>A Woman is No Man is about the strength and courage of women and gives us a glimpse into a closed world of traditions. It is sad and very moving.</p>
+                  <p>7/10</em></p>
+                  <p>------</p>
+                  <p><em>I really enjoyed this book, despite the harrowing content and the challenge of realising that this kind of abuse still prevails. The violence suffered by the women is terrible, but I also found myself sympathising with the men who are equally trapped by the expectations of their culture. The clash of American and Palestinian tradition seemed to affect Adam and Isra more than the generations either side, as they were the couple most caught between two worlds. I found that tension to be the strongest - trying to for a square peg into a round hole in a way they never managed to do. The early descriptions of Isra's childhood seemed to be the happiest times of her life, in spite of the poverty and domestic violence, perhaps showing as well that whatever the cultural backdrop, age only ever makes us more aware of the failings of our society and ways of living. </p>
+                  <p>9/10</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+
+
+
+
+
+          <div class="w3-card-4 w3-margin w3-white Lucy" id="May2020">
+            <a href="books.html"><img src="images/daisyjones.JPG" alt="Daisy Jones & The Six" style="width:50%"></a>
+              <div class="w3-container">
+                <a href="books.html" class="nounderline"><h3><b>MAY 2020</b></h3></a>
+                <a href="books.html" class="nounderline"><h4>Daisy Jones & The Six by Taylor Jenkins Reid</h4></a>
+              </div>
+              <div class="w3-container ">
+                <p>Everyone knows Daisy Jones and The Six.</p>
+                <p>Their albums were on every turntable, they sold out arenas from coast to coast, their sound defined an era. And then, on 12 July 1979, they split.</p>
+                <p>Nobody ever knew why. Until now.</p>
+                <p>The only thing that's certain is that from the moment Daisy Jones walked, barefoot, on to the stage at the Whisky, the band were irrevocably changed...</p>
+                <p>This is the story of their incredible rise and fall. The ambition, the desire, the heartbreak, and the music.</p>
+                <br>
+                <div>
+                  <h3><b>WHY PICK THIS BOOK?</b></h3>
+                    <p>I've picked this book up a few times, attracted by the cover and the fact that it's about music! Initially, I was unsure of the interview-style, but I read the first few pages and was quickly hooked. This book is a complete contrast from April's and looks to be great fun!</p>
+                    <br>
+                  <div>
+                      <h3><b>LUCY'S REVIEW</b></h3>
+                      <p><em>I don’t think I’ve ever read a book quite like this before. At first, I was a little put-off by the interview style, but I actually think this is one of the greatest features of the book. The book has a gossip-mag vibe, where you feel like you are being let into secrets from the band’s shady history and want to keep reading more to see what they all have to say about each dramatic episode. The interviews also allow you to fully get to know each of the individual characters, through hearing their take on a situation, and I quickly felt that I knew who they all were and what they brought to the band. I particularly enjoyed the tension, confusion and, at some points, humour created when two people remembered something differently - when Billy says Daisy was wearing a white t-shirt and then Karen reports that it was a yellow crop top made me smile as their different versions of the same memory matched the personalities of each of the characters.</p>
+                      <p>The fact that it is so hard to tell whether this is actually a true story or fictional (and I did google it to check!) must be one of the greatest achievements of Daisy Jones & The Six. Jenkins Reid has created a wholly believable world of rock ‘n’ roll, with true-to-life characters and a credible rise to fame. However, I do think you have to read this book in as few sittings as possible to get fully into the world she creates and remember who everyone is!</p>
+                      <p>I know that many people have read this book and been drawn into the rockstar lifestyle portrayed, wishing they were one of The Six! I have to say that it didn’t have that effect on me, but I was taken with the individual characters and I enjoyed following them during their rise to fame. I always prefer a plot-driven novel rather than a character-analysis, but nevertheless, I did enjoy Daisy Jones & The Six and am glad I went out of my comfort zone to read it!</em></p>
+                      <br>
+                      <h3><b>READERS' REVIEWS</b></h3>
+                      <p><em>I really enjoyed this. Different style with it being an interview, but it was a bit like reading a diary based book. The twist towards the end - I didn’t see that coming. I want a sequel to see whether they did end up together. What a strong woman Camilla was, and Billy for resisting temptation once he was clean. I did think there was going to be more of a big secret though, like a death based plot, but it didn’t matter that there wasn’t. The writing was so good it was hard to believe it was fictional.</p>
+                      <p>10/10</p>
+                      <p>------</p>
+                      <p>It took me a while to get into this book, partly because you are immediately bombarded with many characters which you need to familiarise yourself with and also because it is written in an interview style. After a while this enables you to become involved in the story through everyone’s perspective and at the end, a surprising twist makes sense of it all.</p>
+                      <p>It lacked somewhat in plot but was a credible story and I must admit that I did ‘Google’ the songs written at the back of the book just in case they were real!</p>
+                      <p>6/10</p>
+                      <p>------</p>
+                      <p>Thoroughly enjoyed this. Again, not a book I would normally pick up so thanks so much for the recommendation Lucy. I'll definitely be reading other books by this author. I got so into it, I felt like I knew the band personally. An easy read and well worth it.</p>
+                      <p>9/10</p>
+                      <p>------</p>
+                      <p>I listened to this book on Audible and I am very glad I chose that medium. The audible version gives a flow to the story that I think would have lacked in the written version. As a listener,  I found having a voice for each character gave another dimension to their personality and helped you to connect to them more.</p>
+                      <p>That said, I found at least the first half of the book was very slow and I found myself not really caring what happened to the characters or the band. Instead I found myself being  frustrated by their egos, their pettiness, their addictions and in some cases not taking full of advantage of their talent. In the second half of the book I did feel that it does address other issues well  such as fame, addiction, self destructive behaviours, self confidence, love and friendship, to name but a few. There is also discussion about finding a path in life which makes you happy which may not necessarily include your talent.</p>
+                      <p>There are some lovely quotes in the book such as one by Daisy talking about people's opinion of her talent being higher than her own opinion of it:</p>
+                      <p>"We all need people to hold up the right mirrors for us"</p>
+                      <p>There are some interesting reveals at the end of the book and we get to know what has become of the characters in the present day  which rounds the story off nicely however overall it was all "too little too late" for me. I don't regret spending time listening to this story but I wouldn't recommend it to a friend</p>
+                      <p>6/10</p>
+                      <p>------</p>
+                      <p>I wouldn't have picked up this book myself, but I'm glad I read it. The subject matter of a rock and roll band didn't particularly interest me, but it was a great backdrop for exploring the relationships between the characters and their different recollections of events. It was really well written though, and the interview conversation style made it so dynamic. I had to Google it to check whether it was a true story. Karen and Camila are both such strong women, and even Daisy finds her strength and self awareness by the end. I was glad about that!</p>
+                      <p>8/10</p></em>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          <div class="w3-card-4 w3-margin w3-white Lucy" id="Apr2020">
+            <a href="books.html"><img src="images/crawdads.JPG" alt="Where the Crawdads Sing" style="width:50%"></a>
+              <div class="w3-container">
+                <a href="books.html" class="nounderline"><h3><b>APRIL 2020</b></h3></a>
+                <a href="books.html" class="nounderline"><h4>Where the Crawdads Sing by Delia Owens</h4></a>
+              </div>
+              <div class="w3-container ">
+                <p>"For years, rumors of the "Marsh Girl" have haunted Barkley Cove, a quiet town on the North Carolina coast. So in late 1969, when handsome Chase Andrews is found dead, the locals immediately suspect Kya Clark, the so-called Marsh Girl. But Kya is not what they say.</p>
+                <p>Sensitive and intelligent, she has survived for years alone in the marsh that she calls home, finding friends in the gulls and lessons in the sand. Then the time comes when she yearns to be touched and loved. When two young men from town become intrigued by her wild beauty, Kya opens herself to a new life - until the unthinkable happens."</p>
+                <p>Where the Crawdads Sing is at once an exquisite ode to the natural world, a heartbreaking coming-of-age story, and a surprising tale of possible murder. Owens reminds us that we are forever shaped by the children we once were, and that we are all subject to the beautiful and violent secrets that nature keeps.</p>
+                <br>
+                <div>
+                  <h3><b>WHY PICK THIS BOOK?</b></h3>
+                    <p>This is a book I spotted in the bookshop and was intrigued, partly because I hadn't a clue what crawdads were and partly because I love a mystery to solve! It looks like we are all going to be spending more time indoors in the coming month, so what better time to read a challenging book like <em>Where the Crawdads Sing</em>?</p>
+                    <br>
+                  <div>
+                      <h3><b>LUCY'S REVIEW</b></h3>
+                      <p><em>I devoured this book, which is always a sign that it’s a good one!</p>
+                        <p>Kya is a young girl, abandoned by her family, who takes solace in the marsh that is her home. It is easy to understand why she so quickly latches on to anyone who expresses an interest in her, despite their intentions, in a desperate hope for love and acceptance. And it is even easier to understand why, having been left behind so many times, she develops a self-reliance coupled with a lack of trust for others, that will both look after her and keep her from developing meaningful relationships.</p>
+                        <p>I was saddened but maybe not surprised at how most of the white people in the book respond to Kya. The town people reject her for being different, warn their children not to go near her, make up stories about her and blame her for Chase’s death, an easy scapegoat, fuelled by their existing prejudices. This pack mentality, where it is easiest to pick on the “other”, the outsider, is something Owens makes us disapprove of in the book, only to make us question this in the final pages. By the end, I felt that, despite rooting for her the whole way through the book, I had also underestimated her and maybe was as guilty as the other people in the book of not expecting her capable of much.</p>
+                        <p>I’m not going to lie - I had to look up Crawdads on Google - but I now feel that I have a proper appreciation of the beauty of the marsh and a renewed outlook on the natural world. The descriptions are beautiful and so intwined into the narrative that they feel an integral part of the story and not the backdrop it is set against. Some books enable you to create a vision in your head, and this is definitely one of those.</p>
+                        <p>Owens cleverly writes the book in two time frames; the “present day” of the murder investigation, and the childhood of Kya. As we hear more of Kya’s childhood, the two come together without you even noticing. I felt engaged by both periods, and when they aligned, the impetus to turn the page and find out what was going to happen was strong. I loved his book and would recommend it to anyone.</em></p>
+                      <br>
+                      <h3><b>READERS' REVIEWS</b></h3>
+                      <p><em>This isn’t a book I would ever have chosen myself (mainly due to the cover!), so I was very pleased to have it recommended through ‘Lucy Reads’. I enjoyed this book and would recommend to anyone looking for something a bit different: this is a book that cannot be easily categorised into a particular genre.</p>
+                        <p>Delia Owens paints an atmospheric picture of the marsh and the world Kya inhabits is realised with vivid detail.  The novel moves through different perspectives and time periods, as Kya’s journey to adulthood overlaps with the ongoing murder investigation. This structure makes this an engaging and unusual read which works through suggestion and metaphor, with much left for the reader to piece together.</p>
+                        <p>Only in the very final pages of the book is the true nature of the story revealed to the reader and only here did I feel totally gripped by the novel. Some of the earlier sections were a little slow-going and it was hard to work out where things were heading or how everything fitted together. I would quite like to read it again now I know the final outcome as I think I might enjoy it more!</p>
+                        <p>Overall, an engaging read for the lockdown and I am interested to see that a film may be in development too.</p>
+                        <p>8/10</em></p>
+                        <p>------</p>
+                        <p><em>Couldnt put this down. Started and finished it today. Thoroughly enjoyed it.</p>
+                        <p>10/10</em></p>
+                        <p>------</p>
+                        <p><em>Another book I thoroughly enjoyed.  So many twists and turns.  I loved the journey and really wanted Kya to do well, following such a bad start in life.</p>
+                        <p>Fabulous end, I did have a feeling that she may have plotted it after all, very clever though as I was constantly swaying!  I felt happy that life had turned out ok in the end for her.</p>
+                        <p>10/10</em></p>
+                        <p>------</p>
+                        <p><em>I loved this book until the last few pages. The intertwining of the two timelines was very skilled, and observing Kya's growth from child to celebrated naturalist was beautiful. The murder timeline was excellent, but I disagreed with the resolution. It felt like an opportunity to write another A. H. poem, than a reasonable ending. The link to the mantis /fireflies was quite clever and I noticed the hints on the way, but by coming to the conclusion it did, the narrative then failed to explain how it was possible (when the trial was very clear that it wasn't), or how it was in character for the murderer to have done it. The calculation, manipulation and familiarity with an alien world just didn't ring true to me. I also felt that the choice of murderer then undid a lot of the work about prejudice and abandonment that had been explored so well previously. A fantastic book with a disappointing ending, for me.</p>
+                        <p>8/10</em></p>
+                        <p>------</p>
+                        <p><em>Where the Crawdads Sing by Delia Owens was certainly a mesmerising read! Right from the beginning you are transported into the unfamiliar world of the marsh with wonderful imagery and artistic description of the flora and fauna of the North Carolina coastal area.</p>
+                        <p>Interwoven with this is the story of Kya whose loss of her mother and family present her with a profound suspicion and distrust of any other human being. Her loneliness pulls at your heartstrings and this is reiterated later during the murder trial in court.</p>
+                        <p>A wonderful tale on many levels that stays with you long after reading the book.</p>
+                        <p>9/10</em></p>
+                        <p>------</p>
+                        <p><em>I thought this book was absolutely wonderful! It is a very powerful story of love, loneliness and loyalty and is set in an intricately described natural setting of lagoons, marshland and sea. This is where the protagonist, Kya, is forced to survive and grow up on her own. Kya lives as one with the natural seascape but as she is perceived as 'different' by the town folk and she suffers huge prejudice as a result. This prejudice results in  life changing events throughout her life.</p>
+                        <p>The aching loneliness she feels leads to her constantly waiting and looking out for key people in her life who have abandoned her at one time or another. This is so movingly depicted particularly when she occasionally has chance to hold another's hand for a few fleeting moments. The lifelong love she feels for her soulmate is again gently and beautifully described throughout the story. He is a constant and  cares for Kya more than anything.</p>
+                        <p>Kya is portrayed as a beautiful and intelligent girl and she is able to make a successful career as an expert in flora and fauna of the marshlands.</p>
+                        <p>This is a gripping mystery which unfolds steadily through flashbacks in time and leads to a heart pounding finish. </p>
+                        <p>Incredibly written and I loved every stunning word!</p>
+                        <p>10/10</em></p>
+                        <p>------</p>
+                        <p><em>This is the story of a truly disadvantaged child, systematically deserted by her family, left to raise herself in the swamplands of North Carolina.  She becomes part of nature, deft at survival against the odds, developing entrepreneurial skills and, with help from a kindly Tate, the ability to read and write.  Subsequently she then produces books and gains recognition for her expertise.</p>
+                        <p>But it is also a story of the death of another acquaintance, Chase, and the mystery surrounding this.  The book has a common construction,  moving between the past and the present to reach its conclusion. We learn of Kya's encounters with both Tate and Chase and her feelings for them both - searching to belong to someone, to matter to someone other than the gulls she constantly feeds.</p>
+                        <p>It is one of the best books I have read in a long time - favourite read so far.</p>
+                        <p>I was more than satisfied with the conclusion!</p>
+                        <p>10/10</em></p>
+                        <p>------</p>
+                        <p><em>I loved this book and finished it in just a few days. Like in Educated and Circe, we discover a main female character who is either mistreated or abandoned by those who should be loving and protecting her. Like these heroines before her she shows huge resilence and resoucefulness to not only survive but also make something of her life against all the odds. Along the way she has to come to terms with the predjudice that exists within her community who perceive her as different and also she has to learn who she can trust.</p>
+                        <p>This story has so many different threads which include beautiful descriptions of the marsh and its flora and fauna, a love story, friendships and a mystery. I found that I just couldn't put it down as I was rooting for Kya and needed to know what happened to her. I shall be adding Jumpin and Mabel to my list of characters I want on my side when the going gets tough!</p>
+                        <p>If you like this book I would also recommend "Before we were yours" by Lisa Wingate</p>
+                        <p>10/10</em></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+
+    <div class="w3-card-4 w3-margin w3-white Lucy" id="Mar2020">
+      <a href="books.html"><img src="images/american-marriage.jpg" alt="An American Marriage" style="width:50%"></a>
+        <div class="w3-container">
+          <a href="books.html" class="nounderline"><h3><b>MARCH 2020</b></h3></a>
+          <a href="books.html" class="nounderline"><h4>An American Marriage by Tayari Jones</h4></a>
+        </div>
+        <div class="w3-container ">
+          <p>"Newlyweds Celestial and Roy are the embodiment of the American Dream. He is a young executive, and she is an artist on the brink of an exciting career. Until one day they are ripped apart by circumstances neither could have imagined. Roy is arrested and sentenced to twelve years for a crime Celestial knows he didn't commit.</p>
+          <p>Devastated and unmoored, Celestial finds herself struggling to hold on to the love that has been her centre, taking comfort in Andre, their closest friend. When Roy's conviction is suddenly overturned, he returns home ready to resume their life together."</p>
+          <p>A masterpiece of storytelling, An American Marriage offers a profoundly insightful look into the hearts and minds of three unforgettable characters who are at once bound together and separated by forces beyond their control.</p>
+          <br>
+          <div>
+            <h3><b>WHY PICK THIS BOOK?</b></h3>
+              <p>When I read what this book is about, I was immediately intrigued by Celestial and Roy's story and wanted to know how it turned out. Emotions are already flying high and I've only got as far as the blurb - this is set to be a moving read.</p>
+              <br>
+            <div>
+                <h3><b>LUCY'S REVIEW</b></h3>
+                <p><em>The blurb of this book tells you that a young couple will be separated early in their marriage, as the husband is put in prison for a crime he didn’t commit. Therefore, there were few surprises, as the story plays out as advertised. How the events affects the couple, and those nearest to them is what makes this book so gripping. The pain they, and all those nearest to them, go through in the book makes the reader reevaluate their priorities and consider the fragility of our lives. At a time when covid-19 is spreading globally, the ease with which your everyday existence can be turned on its head seems entirely relatable, and I felt for all the characters involved as their lives were changed forever.</p>
+                  <p>Hearing the story from three different viewpoints enables the reader to understand how each character has come to their present state and the decisions they have made to get there. This should mean that we feel torn, as we understand each character’s motivations and perspectives. However, although the idea was promising and the subject matter moving, I felt that the style of writing, where the reader discovers everything that has happened after the event itself, and often from a different viewpoint, somehow disconnected me from the emotion in the story. I would have preferred to find out more about the characters up-front, rather than discovering about them as the book progressed, so I could build a picture of them early on and then would have more of an emotional response when events unfolded. This doesn’t detract from the important issues this book raises and the keenness with which I pressed on to the end. But for such a powerful storyline, and the three first-person narratives giving us access to their innermost thoughts, I expected to feel more invested in their outcomes.</em></p>
+                <br>
+                <h3><b>READERS' REVIEWS</b></h3>
+                <p><em>Very good book, one which I would have picked to read myself. Thank you for bringing it to my attention.</p>
+                  <p>It was an emotional read.  I would have liked a bit more about what it was like/what he faced in prison.  I loved Roy Snr and was cheering him when he kept Andre at his house!  When you watch programmes about wrongful convictions, you feel for the person sent to prison, but you don’t think about the effect it has on their loved ones.  Good read!</p>
+                <p>9/10</em></p>
+                <p>------</p>
+                <p><em>This book centres on a miscarriage of justice and because of that, the complex lives of the three main characters are brought to life and woven together in a very honest way.</p>
+                <p>I wasn’t sure about the narration being done by the characters at first but it certainly holds you to the end and keeps you guessing.</p>
+                <p>7/10</em></p>
+                <p>------</p>
+                <p><em>This story is told by alternating reflections from the 3 main characters, Roy, Celeste and Andre as they are entwined in a serious love triangle. Roy is portrayed as a decent guy who suffers an unjust twist of fate. Andre is an old friend of both Celeste and Roy. Both men are infatuated with Celeste. As the story progresses their friendships and bonds are tested to the limits.</p>
+                <p>I enjoyed this book but was surprisingly unmoved by it despite the enormity of the events unfolding and their relationships being tested to the limit.</p>
+                <p>6.5/10</em></p>
+                <p>------</p>
+                <p><em>For me, this book was a bit like someone describing a photograph in the sense that the fundamental plot is already largely available to you before you start reading. Of course it is unclear what will happen in the end but as it’s not an overly plot driven narrative, the interest lies in the steady unfolding of how the lives of all of those involved are messily intertwined.</p>
+                <p>Although I thought it was a beautifully written book and particularly enjoyed the letter exchanges, I initially felt the same as Lucy in that if more had been given about the central characters earlier on, I too may have felt more emotionally connected to the various events that ensued.</p>
+                <p>However, on reflection, perhaps the sentiment that we, as the reader, feel like we aren’t given enough time to acquaint ourselves meaningfully with the central characters before Roy is arrested, reflects the way that Roy and Celestial were not given enough time to establish deep roots in their relationship before their time together was unjustly and cruelly ripped apart. I think Celestial, at one point, even refers to the relationship as being like a sapling that didn’t have chance to root (or something along those lines!) and this is repeatedly juxtaposed by the rock solid, rooted connectedness shown by Big Roy and Olive’s relationship. Our feeling of not knowing them well enough is arguably, to an extent, the same as what Celestial feels towards Roy. Even right at the beginning their argument stems from Roy not having told her about his real father. Therefore, although I initially felt puzzled as to why I wasn’t overly moved by such a moving set of events, I now feel like my sense of emotional disconnect is not just that, instead it serves to illuminate further why their relationship could not be.</p>
+                <p>7/10</em></p>
+                <p>------</p>
+                <p><em>Enjoyed this. Thanks again for the recommendation. Looking forward to the next one!</p>
+                <p>8/10</em></p>
+                <p>------</p>
+                <p><em>I listened to this on Audible which I wouldn't recommend at all as the female lead is narrated by two different people. One of the voices is perfect for Celestial's character and the other is wrong on so many levels that it is very distracting. I did however love the story and finished it in a matter of days. Unlike some reviewers I did feel an emotional connection with Roy and I didn't mind that we didn't know his character well at the beginning and that we learnt more as the story unfolded.</p>
+                <p> The essence of the book was the fallout following Roy's conviction so it was important for this to take place early in the book. I had no particular feelings for Andre either way however I found myself really disliking Celestial. Although she explained that her marriage to Roy was not established enough to be tested by such a challenge it felt to me like she left him to his fate and just wanted to move on. I also found it incredible that she was so enraged by Roy's news about his biological father when she herself had kept a huge secret from him.</p>
+                <p>I found references to ongoing racial discrimmination poignant and disturbing such as the scene about the "baby maid" and Roy's brutal arrest. I found the letter exchange part of the book tedious and felt the author was a little clumsy in her use of them to show the evolution of the couple's relationship. The author did have a knack of describing the character's feelings in a way that made them very relatable. I was happy with the ending as I felt it was the only outcome that worked for the three main characters.</p>
+                <p>As a side note Big Roy was my favourite character in the book for his steadfastness and his unswerving loyalty to Roy. He and Circe are both now on my list of people I want on my side when the going gets tough! Inspite of some of the flaws of this book I would still recommend it.</p>
+                <p>8/10</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-card-4 w3-margin w3-white Lucy" id="Feb2020">
+        <a href="books.html"><img src="images/circe.JPG" alt="Circe" style="width:50%"></a>
+          <div class="w3-container">
+            <a href="books.html" class="nounderline"><h3><b>FEBRUARY 2020</b></h3></a>
+            <a href="books.html" class="nounderline"><h4>Circe by Madeline Miller</h4></a>
+          </div>
+          <div class="w3-container ">
+            <p>"In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child--not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power--the power of witchcraft, which can transform rivals into monsters and menace the gods themselves.</p>
+            <p>Threatened, Zeus banishes her to a deserted island, where she hones her occult craft, tames wild beasts and crosses paths with many of the most famous figures in all of mythology, including the Minotaur, Daedalus and his doomed son Icarus, the murderous Medea, and, of course, wily Odysseus.</p>
+            <p>But there is danger, too, for a woman who stands alone, and Circe unwittingly draws the wrath of both men and gods, ultimately finding herself pitted against one of the most terrifying and vengeful of the Olympians. To protect what she loves most, Circe must summon all her strength and choose, once and for all, whether she belongs with the gods she is born from, or the mortals she has come to love.</p>
+            <p>With unforgettably vivid characters, mesmerizing language and page-turning suspense, Circe is a triumph of storytelling, an intoxicating epic of family rivalry, palace intrigue, love and loss, as well as a celebration of indomitable female strength in a man's world."</p>
+            <br>
+            <div>
+              <h3><b>WHY PICK THIS BOOK?</b></h3>
+                <p>January's book was a challenging real-life story so I have tried to find something a little different for February. Circe takes us back thousands of years into the world of myth, following Odysseus' adventures home after the Trojan War, but from the perspective of Circe, a sorceress. The timeless themes of love, family, healing, choice and fate will be examined in this award-winning read.</p>
+                <br>
+              <div>
+                  <h3><b>LUCY'S REVIEW</b></h3>
+                  <p><em>I haven’t read a “fantasy” style book in ages, and it took me longer than it should have to get into Circe, but it was definitely worth persisting. Circe is set in Ancient Greece and tells the story of an unusual goddess who doesn’t fit in among her own kind and instead is drawn towards mortals, seeking love and approval from them since she has not received it from the gods. The idea of a young person being born into a family they don’t fit with reminded me of Educated; both Tara and Circe struggle with their own kind and feel there is something else out there for them in an unfamiliar place; both find it hard to overcome the challenges the new place holds; both have to reconcile difficulties with their own family; and both eventually find a kind of harmony in their new life, having gained the strength to take it for themselves. Despite the mythological wrapper, Circe deals with contemporary themes and, at its core, is about a woman trying to make sense of the world and her place in it. It is a powerful read.</p>
+                  <p>Circe’s status as a goddess adds emphasis to ordinary events in human life. The wrench she feels at her son growing up and entering the world is something felt by many parents, and I really felt her sadness as I read of Telegonus’ sailing off to find his father aged only 16. The fear Circe has of her son dying before her is one of the greatest fears of a parent’s life and the seeming inevitability of this, since her son is a demi-god and destined to die while she is immortal, heightens the emotion of this part of her story. The joy of having a son, someone to love her unconditionally in an existence where love has been lacking, turns into the greatest pain, that of losing a child. The fact that the greatest thing in her life can serve to increase the sadness she has experienced is heart-breaking and I felt that Miller highlighted this issue beautifully in the book.</p>
+                  <p>The conclusion of the book again reminded me of contemporary issues and used the mythological world to make sense of them. In a family where she has always been mocked and used as a scapegoat, by the end of the book, Circe finally gathers the strength to stand up to her father and demand the end of her exile, showing great self-awareness and new-found confidence. In the final chapter, Miller doesn’t tell us whether Circe actually becomes mortal, but this doesn’t matter; the fact that she has come to terms with and is allowing herself to be true to her real self is empowering. Her characterisation throughout the book means that the reader goes through every trial with her and is glad that she has found her place at the end. If all readers come away questioning who they want to be in this world and having a keener awareness of their self-identity, as I certainly have, Miller will have triumphed.</em></p>
+                  <br>
+                  <h3><b>READERS' REVIEWS</b></h3>
+                  <p><em>I can't say how accurately the original mythology of Circe was retold, only that the telling was powerful, gripping and fun. The book follows the goddess Circe from her birth and through her whole life, with lots of mini stories of her interactions with Greek heros and other gods throughout the aeons.</p><p> I was pleasantly surprised by the feminist perspective that the author gives Circe, which is circled back to multiple times throughout the story.  If you like Greek mythology and/or want an easy read I can highly recommend!<br>9/10</em></p>
+                  <p>------</p>
+                  <p><em>Circe....it hooked me in! I wanted to keep reading to find out what happened next.</p>
+                    <p>I felt for Circe as she had such a bad start in life at home being the most insignificant member of her family and therefore an outcast. She was unloved by all and very isolated and sought comfort from her brother and Glaucus who depended on her. She never got over the transformation of Scylla.</p>
+                    <p>As a reader, the traumas she went through for no reason of her own affected me. I felt for her the whole way through. It was a fascinating tale and highlighted the many imperfections of the gods. It is very relevant to the modern day and the same challenges that Circe faced are still being faced today.<br>8/10</em></p>
+                    <p>------</p>
+                    <p><em>I’m glad I joined Lucy Reads as I would not have chosen this book myself. It revealed a world of mythology and magic. The text is intricately written with intensely evocative and descriptive writing depicting the imaginary world of gods, nymphs, mortals and monsters. Love and revenge, beauty and gore are richly portrayed in this adult ‘fairytale’.</p>
+                    <p>The story is told by the protagonist , a sorceress called Circe. It depicts her life and travels, events and the gods and mortals that she becomes involved with. For me personally, it was rather too descriptive and complex with so many characters connected to so many others lives that I’m afraid that I ended up skipping several chapters in order to reach the end of the tale.<br>6/10</em></p>
+                    <p>------</p>
+                    <p><em>A completely different genre of book for me and, to be honest, I'm still not sure what I thought of it. It took me a while to get into it but I'm glad I persevered.<br>Thanks again for the suggestion.<br>7/10</em></p>
+                    <p>------</p>
+                    <p><em>This was the first mythology/ fantasy book I have read and I wasn't sure how I would get on with it. Initially I found it hard to get into but as the story progressed I got pulled into it.</p><p>I loved Circe. I found that she was very hard on herself for things she had done wrong and yet was so wronged by those who should have loved and protected her. She has so many amazing qualities such as being faithful, protective, loving, hard working, resourceful, selfless and so many more. I would definitely want to her on my side in a fight!</p><p>Once you get past the era and the characters you realise that this story has so many elements that we see in current day life such as power, wealth, love and jealousy. There is also the element of Circe being excluded for being different which is a very current theme. I didn't see the ending coming but I loved it. My advice would be to give it a go as it is worth it.</p><p>Thanks for introducing me to a different genre!<br>8/10</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+      <div class="w3-card-4 w3-margin w3-white Lucy" id="Jan2020">
+        <a href="books.html"><img src="images/Educated2.JPG" alt="Educated" style="width:50%"></a>
+        <div class="w3-container">
+          <a href="books.html" class="nounderline"><h3><b>JANUARY 2020</b></h3></a>
+          <a href="books.html" class="nounderline"><h4>Educated by Tara Westover</h4></a>
+        </div>
+        <div class="w3-container">
+          <p>“Tara Westover and her family grew up preparing for the End of Days but, according to the government, she didn’t exist. She hadn’t been registered for a birth certificate. She had no school records because she’d never set foot in a classroom, and no medical records because her father didn’t believe in hospitals.
+            <br><br>
+            As she grew older, her father became more radical and her brother more violent. At sixteen, Tara knew she had to leave home. In doing so she discovered both the transformative power of education, and the price she had to pay for it.”</p>
+            <br>
+            <div>
+              <h3><b>WHY PICK THIS BOOK?</b></h3>
+                <p>This was on one of Obama's book lists in 2019, and was recommended to me by a friend. It is a true story, written by Tara Westover about her own experiences. It is incredible to think of the changes she made in her life, from never attending school to being awarded a PhD from Cambridge. I'm expecting to be shocked and inspired by her story.</p>
+                <br>
+                  <div>
+                    <h3><b>LUCY'S REVIEW</b></h3>
+                      <p><em>Education both makes Tara who she is and alienates her from everything she has ever known. It is easy to look at the title of the book, hear how she escaped from a controlling Mormon family and ended up gaining a PhD from Cambridge and imagine some happy ending where getting a good education is the thing that saves her. However, as the book unfolds, it is clear that things aren’t that simple. Her family cannot accept the new Tara nor do they acknowledge her views, eventually leading to estrangement. Regardless of how extreme their views or abusive their actions, Tara finds it hard to let go of her family and spends a large portion of her adult life seeking their approval, gripped by an irrational yet completely understandable desire to retain her relationship with them. For me, the gradual alienation of her family as she becomes more educated is one of the most poignant aspects of the book - she may have gained the freedom to form her own views but she lost important figures in the process so any sense of achievement at the end of the book is bittersweet.</p>
+                      <p>For a long time, Tara made excuses for her family, justifying their actions and sometimes even misremembering events so as not to face the truth of what they were doing. To be critical of one’s family is perhaps the hardest thing, and the danger of accepting her family’s ways unquestioningly was brought out in the book. The damage that the family did to Tara and the impact the events of her childhood had on her mental health are evident throughout. The more times she is told that she is wrong, the more she believes it, and I was particularly saddened in the part where Tara constantly tries to convince herself that she had remembered events wrongly, putting her intellect and its reliability into question. I believe that education is an important factor in social change, and it is clear that it is her intellect that enables Tara to escape from Buck’s Peak and take control of her life. When this is called into question and suggested to be unreliable, then it seemed that the family’s hold on Tara would continue. By this point, the “character” of Tara was such that I felt that I understood who she was and how she might think, and it is a triumph on her part that I genuinely felt concern for her at this point.</p>
+                      <p>I found this book to be simultaneously gripping and troubling. Tara’s reflective tone is not nostalgic and the text isn’t full of explicit life lessons or expectations of pity. She doesn’t even present the actions of her father and brother, which already elicit a strong response from the reader, as shockingly as she could. Her aim is not to expose her family and their ways and have the reader admire her for her courage and her journey. She writes with honesty and gives the reader a clear vision of her life on the mountain that somehow makes sense of her actions throughout the book. To say I enjoyed the book seems to disrespect its contents, but I certainly felt engaged and challenged by it. I have thought about it a lot over the past month and am glad to have chosen it as the first read of the year.</em></p>
+                      <br>
+                      <h3><b>READERS' REVIEWS</b></h3>
+                        <p><em>Absolutely brilliant book! Loved the journey it took you on. You can’t comprehend that these things actually happened in her life. You champion her right to the end. Couldn’t put it down!<br>10/10</em></p>
+                        <p>------</p>
+                        <p><em>At times I could hardly bear to read on as the isolated, grim and abusive life that Tara endured as she was growing up was harrowingly described. Her later unfolding insights into the reasons why her parents behaved as they did were intelligently revealed  and the conflicts that she felt were bravely rationalised with the incredibly moving result of forging a separate and new life for herself. I was moved to tears at the end as I thought back to the terrible struggle she had endured and also the hope for a better future.<br>8/10</em></p>
+                        <p>------</p>
+                        <p><em>Crikey! I always avoid the ‘J Word cliche’ but this has definitely taken me on one heck of a journey.
+                          So much to say... the first revelation being that I truly assumed at the beginning of the book that I was reading something set so much longer ago than it actually was!</p>
+                          <p>I was hooked from beginning to end. Such powerful themes in the reflections of an adult through the eyes of the child she was.. were agonising, poignant and beggared belief??
+                          A painfully vivid picture of the long term devastating impact that mental illness, isolation and extremism can have on every aspect of family life. So honestly and non-judgementally related.
+                          I wanted to rush in to rescue Tara, find decent help for Shawn and offer stammering therapy to Tyler..!!
+                          <p>An unforgettable read. Indeed - an education!!<br>10/10</em></p>
+                          <p>------</p>
+                          <p><em>Through reading this book I realised how little my own fundamental beliefs about life have ever been challenged, and am drawn to consider what my reaction might be to challenging an upbringing that taught me that my thoughts and existence were wrong.</p>
+                            <p>Tara Westover's struggle to reconcile her desire for knowledge and truth with her love for her family and her understanding of how to be a good member within it is compellingly brutal as she battles duty with integrity, gaslighting with self-belief. Tales of horrific accidents befalling her brothers and father, and the violence she herself suffers are difficult to read, but I found the most challenging parts those where her increasingly varied experiences away from the mountain force her to confront her life there through the eyes of the world outside.</p>
+                            <p>Her desire to love and be loved is palpable throughout, as is the pain when her mother and sister in particular turn their backs on her. Her fear of losing them is matched by their fear of a woman they no longer understand and whose knowledge of the modern world threatens their entire way of life. There is a primal struggle which has no obvious or right answer: whichever path Tara took risked loss and distress to herself and those she loves, and the real triumph is that she maintains her identity and sense of self throughout.<br>9/10</em></p>
+                          <p>------</p>
+                          <p><em>It's a story of indoctrination.  To some extent this happens to us all - we follow the beliefs and values instilled in us by our families. If it's all you've ever known, it must be true. It is only when you have another world for comparison that you begin to see that perhaps there are alternatives.</p>
+                            <p>This is the story of a backwoods family, ruled by religious beliefs, sometimes taken to extremes, especially by Tara's father. His views on education outside the home, hospitals, doctors - authority figures; mostly based on fear of the unknown - he trusts no-one and his views are the only viable ones.</p>
+                            <p>Tara does break free by taking the path of academia so abhorred by her father - and yet his influence has left her with nagging doubts about her choices.</p>
+                            <p>Some of the conflicts in the Westover family were really hard to stomach - the denial of Shawn's violence difficult to believe - but symptomatic of the family's desire to close ranks.</p>
+                            <p>Yet, Tara not only survived, but triumphed - but at what cost??<br>9/10</em></p>
+                          <p>-----</p>
+                          <p><em>A fantastic book - couldn't put it down! And it's not one I would have found myself, so thanks so much for the suggestion! I look forward to the next one!<br>10/10</em></p>
+                          <p>-----</p>
+                          <p><em>I loved this book and couldn't put it down. Tara is an amazing storyteller and she takes you on a complex and heartfelt journey giving some insight into her unique childhood and her journey to becoming educated. Through her eyes you realise that there were no easy answers to the difficult situations she found herself in or about the choices she had to make. I would highly recommend this book.<br>10/10</em></p>
+                          <p>-----</p>
+                          <p><em>A fascinating read! I was completely engrossed right from the start and it's not the sort of book I would usually choose.<br>10/10</em></p>
+                          <p>-----</p>
+                          <p><em>Unbelievably bad parenting!<br>10/10</em></p>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+      </div>
+      <div class="w3-col l8 s12">
+        <div class="w3-card-4 w3-margin w3-white">
+          <div class="w3-container extrapadding">
+            <form
+            action="https://formspree.io/xbjdbbdy"
+            method="POST"
+            >
+            <h3><b>SUGGESTIONS</b></h3>
+            <p>Please leave any book suggestions here!</p>
+            <label>
+            Book title<br>
+            <textarea name="title"></textarea>
+            </label>
+            <label>
+              <br>  Your name (optional)<br>
+            <textarea name="name"></textarea>
+            </label>
+            <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+  <!-- END LARGE COLUMN ENTRIES -->
+    </div>
+    <div class="w3-col l4">
+      <div class="w3-card w3-margin w3-margin-top">
+        <div class="w3-container w3-white">
+          <a href="https://www.instagram.com/lucyreadsbookclub/" target="blank"><img src="images/instagram.PNG" style="width:100%" class="insta"></a>
+          <p>Follow <a href="https://www.instagram.com/lucyreadsbookclub/" target="blank">@lucyreadsbookclub</a> on Instagram</p>
+        </div>
+      </div>
+      <hr>
+  <!-- Introduction menu -->
+    <div class="w3-col l4">
+    </div>
+  </div>
+</div>
+
+
+  <!-- Contact -->
+<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+  <h3 class="w3-center"><b>Review</b></h3>
+  <hr>
+  <p>Use this section to give a review of this month's book!</p>
+  <div class="form">
+    <form
+      action="https://formspree.io/mrgedpek"
+      method="POST"
+      >
+      <label>
+      Book<br>
+      <textarea name="book"></textarea>
+    </label><br>
+    <label>
+      Rating /10<br>
+      <textarea name="rating"></textarea>
+    </label><br>
+    <label>
+      Review<br>
+      <textarea name="review"></textarea>
+    </label><br>
+    <label>
+      Your name (optional)<br>
+      <textarea name="name"></textarea>
+    </label>
+    <button type="submit" class="submitbutton">Send</button>
+    </form>
+  </div>
+</div>
+</div>
+<div class="footer d-flex">
+    <div ><p class="alignbottom">&#169; Lucy Huelin 2020
+      <a href="https://www.instagram.com/lucyreadsbookclub/" target="blank"><img src="images/instagram.PNG" style="width:4%" class="insta pull-right"></a>
+    </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+<!-- End page content -->
+
+</body>
+</html>
